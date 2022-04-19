@@ -1,0 +1,27 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "A web application that manages tasks.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collinsceleb/task-manager.git"
+  },
+  "author": "Kolawole Afuye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collinsceleb/task-manager/issues"
+  },
+  "homepage": "https://github.com/collinsceleb/task-manager#readme"
+}
